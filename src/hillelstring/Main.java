@@ -15,7 +15,7 @@ public class Main {
         String s = scr.nextLine();
         System.out.println("Write any character from the above text: ");
         Character c = (char) System.in.read();
-        so.findSymbolOccurance(s, c);
+        System.out.println("Simbol: " + so.findSymbolOccurance(s, c));
 
         System.out.println("----------------Point three--------------------------" );
 

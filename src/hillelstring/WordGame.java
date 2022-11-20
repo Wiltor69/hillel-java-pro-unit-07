@@ -23,7 +23,7 @@ public class WordGame {
 
         }System.out.println("You made mistake!!");
         System.out.println(words[r].charAt(0) + "###############");
-        //System.out.println(words[r].toString());
+        System.out.println(words[r].toString());
     }
 }
 

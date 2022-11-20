@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class SymbolOccurance {
-    public void findSymbolOccurance (String s, char c)  {
+    public int findSymbolOccurance (String s, char c)  {
         char[] chars = s.toCharArray();
 
         ArrayList<Character> list = new ArrayList<>();
@@ -14,7 +14,7 @@ public class SymbolOccurance {
              if (chars[i] == c) {
                  list.add(chars[i]);
              }
-            }System.out.println("The number of characters " + c + " in this string: " + list.size());
+            }return list.size();
         }
 
     }
